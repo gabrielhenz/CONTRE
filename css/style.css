@@ -1,0 +1,118 @@
+/* Default */
+
+* {
+margin:0;
+padding:0;
+list-style:none;
+vertical-align:baseline;
+}
+
+body{
+	background-color:#101010;
+	font-size:100%;
+}
+
+/* High Resolution */
+
+@media screen and (min-width: 960px) {
+	#container{
+		width:80%;
+		height:auto;
+		margin:0 10%;
+		position:absolute;
+		background-color:#fff;
+	}
+	
+	#social-media{
+		width:100%;
+		height:1.5em;
+		position:absolute;
+		top:2.5em;
+	}
+	
+	.ico-insta{
+		width:1.5em;
+		height:1.5em;
+		position:absolute;
+		max-width:1.5em;
+		max-height:1.5em;		
+		float:left;
+		left:95%;
+	}
+	
+	.ico-fb{
+		width:1.5em;
+		height:1.5em;
+		position:absolute;
+		max-width:1.5em;
+		max-height:1.5em;
+		left:97.5%;
+	}
+	
+	
+	#header-site{
+		width:100%;
+		height:auto;
+		position:absolute;
+		top:4.2em;
+		clear:both;
+	}
+	
+	.header-1{
+		width:50%;
+		height:auto;
+		position:absolute;
+	}
+	
+	.header-logo{
+		width:33.9375em;
+		height:5.5em;
+		max-width:100%;
+		max-height:100%;
+	}
+	
+	.header-2{
+		width:50%;
+		height:auto;
+		position:absolute;
+		left:50%;
+		float:left;
+	}
+	
+	.header-menu{
+		width:97%;
+		height:4em;
+		position:absolute;
+		background-color:#1c1c1c;
+		margin:1.1em 1.1em 0 3%;
+	}
+	
+	#cel-header{
+		display:none;
+	}
+	
+	#slide{
+		width:100%;
+		height:310px;
+		position:absolute;
+		top:12.5em;
+		-webkit-box-shadow: 0px 4px 109px -25px rgba(230,0,0,1);
+		-moz-box-shadow: 0px 4px 109px -25px rgba(230,0,0,1);
+		box-shadow: 0px 4px 109px -25px rgba(230,0,0,1);
+	}
+}
+
+
+
+
+/* Image Responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
